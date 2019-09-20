@@ -3,7 +3,7 @@ using WebAPI.Models;
 
 namespace WebAPI
 {
-    public class DatabaseInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<DatabaseContext>
+    public class DatabaseInitializer : System.Data.Entity.CreateDatabaseIfNotExists<DatabaseContext>
     {
         protected override void Seed(DatabaseContext context)
         {
