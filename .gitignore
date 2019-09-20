@@ -1,0 +1,6 @@
+WebAPI/App_Data/NeuraInsuranceDB.mdf
+WebAPI/App_Data/NeuraInsuranceDB_log.ldf
+WebAPI/bin/*
+WebAPI/obj/*
+packages/*
+.vs/WebAPI/v15/*
